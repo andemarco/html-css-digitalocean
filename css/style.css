@@ -1,0 +1,14 @@
+.debug .container,
+.debug .container-fluid,
+.debug-noheight .container,
+.debug-noheight .container-fluid {
+  border: 1px solid red;
+  background: pink;
+}
+.debug .container [class*="col-"] {
+  border: 1px solid blue;
+  height: 300px;
+}
+.debug-noheight .container [class*="col-"] {
+  border: 1px solid blue;
+}
