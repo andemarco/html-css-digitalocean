@@ -49,6 +49,41 @@
   height: 400px;
   background-color: green;
 }
+#design{
+  height: 400px;
+  background-color: grey;
+}
+#features{
+  height: 400px;
+  background-color: lightgrey;
+}
+#customer{
+  height: 400px;
+  background-color: azure;
+}
+#develop {
+  height: 400px;
+  background-color: lightgreen;
+}
+#develop .box {
+  width: 60%;
+  height: 200px;
+  background-color: yellow;
+}
+#develop .box .inside_box {
+  width: 60%;
+  height: 50px;
+  background-color: red;
+}
+#get_started {
+  height: 200px;
+  background-color: brown;
+}
+#footer {
+  height: 300px;
+  background-color: darkgreen;
+}
+
 
 
 /* MEDIAQUERY */
