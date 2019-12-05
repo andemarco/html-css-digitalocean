@@ -1,3 +1,4 @@
+/* debug */
 .debug .container,
 .debug .container-fluid,
 .debug-noheight .container,
@@ -11,4 +12,49 @@
 }
 .debug-noheight .container [class*="col-"] {
   border: 1px solid blue;
+}
+.wrap_80 {
+  width: 80%;
+  margin: 0 auto;
+}
+.width_50 {
+  width: 50%;
+  background-color: yellow;
+  border: 1px solid grey;
+}
+
+/* Inizio style */
+#nav_bar {
+  height: 80px;
+  background-color: blue;
+}
+
+#jumbo {
+  height: 400px;
+  background-color: lightblue;
+}
+.jumbo_cloud {
+  /* height: 400px; */
+  background: yellow;
+}
+.jumbo_form {
+  /* height: 400px; */
+  background: red;
+}
+#logos {
+  height: 400px;
+  background-color: purple;
+}
+#deploy{
+  height: 400px;
+  background-color: green;
+}
+
+
+/* MEDIAQUERY */
+/* EXTRA SMALL */
+@media screen and (max-width: 768px) {
+  .width_xs_100 {
+    width: 100%;
+  }
 }
