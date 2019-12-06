@@ -22,10 +22,9 @@ body {
 }
 .width_50 {
   width: 50%;
-  background-color: yellow;
-  border: 1px solid grey;
 }
 ul {
+  list-style: none;
   margin: 0;
   padding: 0;
 }
@@ -52,9 +51,20 @@ ul {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-.title_section {
+.title_sign_in {
   font-size: 2.2em;
   line-height: 18px;
+}
+.title_section {
+  font-size: 2.7em;
+  line-height: 22px;
+  padding-bottom: 10px;
+  font-weight: 600;
+}
+.par_section {
+  font-size: 1.5em;
+  color: grey;
+  text-align: center;
 }
 /* Inizio style */
 /* HEADER */
@@ -142,6 +152,9 @@ ul {
   left: 5px;
 }
 /* LOGO SECTION */
+#logos {
+  background-color: #F3F5F9
+}
 #logos h3 {
   color: grey;
   font-size: 1em;
@@ -156,9 +169,31 @@ ul {
 #logos li img {
   width: 100%;
 }
-#deploy{
-  height: 400px;
-  background-color: green;
+/* DEPLOY SECTION */
+.deploy_left ul {
+  padding-left: 10px;
+  border-left: 2px solid grey;
+  font-size: 1.5em;
+  color: grey;
+  line-height: 44px;
+}
+.deploy_box {
+  height: 156px;
+  padding: 10px;
+  margin-top: 15px;
+}
+.deploy_box img{
+  height: 38px;
+}
+.deploy_box h2 {
+  font-size: 1.2em;
+  font-weight: 600;
+  color:  #031B4E;
+}
+.deploy_box p{
+  font-size: 1.1em;
+  font-weight: 600;
+  color: grey;
 }
 #design{
   height: 400px;
