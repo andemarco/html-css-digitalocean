@@ -352,9 +352,19 @@ ul {
 /* FOOTER */
 
 #footer {
-  background-color: darkgreen;
+  background-color: #010E28;
 }
-
+#footer h6 {
+  line-height: 5px;
+}
+.social_icons {
+  font-size: 1.5em;
+}
+.social_icons:hover,
+.social_icons:active,
+.social_icons:focus {
+  color: white;
+}
 
 
 /* MEDIAQUERY */
