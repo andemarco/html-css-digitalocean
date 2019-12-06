@@ -62,7 +62,6 @@ ul {
 }
 .title_sign_in {
   font-size: 2.2em;
-  line-height: 18px;
 }
 .title_section {
   font-size: 2.7em;
@@ -134,9 +133,10 @@ ul {
   font-size: 1.4em;
   color: darkgrey;
 }
-.jumbo_form {
+.sign_up_box {
   background: white;
   border-radius: 5px;
+  padding: 15px;
 }
 .form-group {
   margin-bottom: 12px;
@@ -380,7 +380,12 @@ ul {
 @media screen and (max-width: 768px) {
   .width_xs_100 {
     width: 100%;
+    margin: 0 auto;
   }
+  .margin_top_xs_20 {
+    margin-top: 120px;
+  }
+
   #logos li {
     max-width: calc(90%/2);
   }
@@ -400,5 +405,5 @@ ul {
 
 /* Large devices (large desktops, 1200px and up) */
 @media screen and (min-width:1200px) {
-  
+
 }
