@@ -37,6 +37,9 @@ ul {
 .color_white {
   color: white;
 }
+.color_grey {
+  color: grey;
+}
 .medium_weight {
   font-weight: 600;
 }
@@ -195,9 +198,28 @@ ul {
   font-weight: 600;
   color: grey;
 }
+/* DESIGN SECTION */
 #design{
-  height: 400px;
-  background-color: grey;
+  background-color: #F3F5F9;
+}
+#design img {
+  width: 80%;
+}
+#design span {
+  font-size: 3em;
+  margin: 0 20px;
+}
+#design p {
+  font-size: 1.4em;
+  font-weight: 600;
+  padding-top: 20px;
+}
+.circles{
+  font-size: 0.3em;
+  word-spacing: 10px;
+}
+.circles i {
+  margin-right: 5px;
 }
 #features{
   height: 400px;
