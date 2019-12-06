@@ -29,14 +29,32 @@ ul {
   margin: 0;
   padding: 0;
 }
+.color_lightblue {
+  color: #0069FF;
+}
 .color_blue {
   color: #031B4E;
+}
+.color_white {
+  color: white;
 }
 .medium_weight {
   font-weight: 600;
 }
 .bold_weight {
   font-weight: bold;
+}
+.padding_70 {
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+.padding_30 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.title_section {
+  font-size: 2.2em;
+  line-height: 18px;
 }
 /* Inizio style */
 /* HEADER */
@@ -83,16 +101,48 @@ ul {
 
 /* JUMBOTRON */
 #jumbo {
-  height: 400px;
-  background-color: lightblue;
+  background-image: url(../img/jumbo.jfif);
+  background-position: center;
+  background-size: cover;
   margin-top: 60px;
 }
 .jumbo_cloud {
-  background: yellow;
+  padding: 0 50px;
+}
+.jumbo_cloud h1 {
+  font-size: 4em;
+}
+.jumbo_cloud p {
+  font-size: 1.4em;
+  color: darkgrey;
 }
 .jumbo_form {
-  background: red;
+  background: white;
+  border-radius: 5px;
 }
+.form-group {
+  margin-bottom: 12px;
+}
+.sign_up_box button {
+  width: 100%;
+  margin-bottom: 12px;
+  height: 30px;
+  padding: 0;
+}
+.create_button {
+  color: white;
+  background-color: #0069FF
+}
+.google_button {
+  position: relative;
+}
+.google_icon {
+  position: absolute;
+  height: 18px;
+  left: 5px;
+}
+
+
 #logos {
   height: 400px;
   background-color: purple;
