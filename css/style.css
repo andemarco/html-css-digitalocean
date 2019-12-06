@@ -13,6 +13,9 @@
 .debug-noheight .container [class*="col-"] {
   border: 1px solid blue;
 }
+body {
+  font-family: 'Roboto', sans-serif;
+}
 .wrap_80 {
   width: 80%;
   margin: 0 auto;
@@ -22,23 +25,72 @@
   background-color: yellow;
   border: 1px solid grey;
 }
-
+ul {
+  margin: 0;
+  padding: 0;
+}
+.color_blue {
+  color: #031B4E;
+}
+.medium_weight {
+  font-weight: 600;
+}
+.bold_weight {
+  font-weight: bold;
+}
 /* Inizio style */
+/* HEADER */
+/* NavBar */
 #nav_bar {
-  height: 80px;
-  background-color: blue;
+  max-height: 60px;
+  line-height: 63px;
+  font-size: 1.1em;
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+  margin: 0 auto;
+  background-color: white;
+  z-index: 60;
+}
+.header_logo {
+  line-height: 60px;
+  height: 27px;
+  vertical-align: text-bottom;
+  margin-top: 13px;
+}
+#nav_bar ul li a:not(.sign_up_button):hover,
+#nav_bar ul li a:not(.sign_up_button):active,
+#nav_bar ul li a:not(.sign_up_button):focus {
+  text-decoration: none;
+  color: #0069FF;
+}
+.sign_up_button {
+  color: #0069FF;
+  background-color: white;
+  border: 1px solid #0069FF;
+}
+.sign_up_button:hover,
+.sign_up_button:active,
+.sign_up_button:focus {
+  color: white;
+  background-color: #0069FF;
+  border: 1px solid #0069FF;
+}
+.burger_menu {
+  font-size: 1.2em;
 }
 
+/* JUMBOTRON */
 #jumbo {
   height: 400px;
   background-color: lightblue;
+  margin-top: 60px;
 }
 .jumbo_cloud {
-  /* height: 400px; */
   background: yellow;
 }
 .jumbo_form {
-  /* height: 400px; */
   background: red;
 }
 #logos {
