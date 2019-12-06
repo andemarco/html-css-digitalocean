@@ -61,7 +61,7 @@
                   <div class="form-group">
                     <input type="password" class="form-control" id="Password" placeholder="Password">
                   </div>
-                  <button type="submit" class="btn btn-default create_button bold_weight"><span>Create your account</span></button>
+                  <button type="submit" class="btn btn-default account_button bold_weight"><span>Create your account</span></button>
                   <button type="submit" class="btn btn-default google_button bold_weight"><span><img class="google_icon text-left" src="img\google-icon.png" alt="logo"></span>Sign up with Google</button>
                 </form>
                 <p class="color_blue medium_weight">By signing up you agree to the <a href="#">Terms of Service </a></p>
@@ -147,7 +147,7 @@
           <p class="par_section">Build more and spend less time managing your infrastructure with our easy-to-use control panel and API.</p>
           <div class="wrap_80">
             <div class="wrap_80 padding_top_70  text-center">
-              <span class="color_grey"><i class="fas fa-chevron-left"></i></span><img src="img/screenshot-create-droplet-12336b41.jpg" alt=""><span class="color_blue"><i class="fas fa-chevron-right"></i></span>
+              <span class="color_grey left_span hidden-xs hidden-sm"><i class="fas fa-chevron-left"></i></span><img src="img/screenshot-create-droplet-12336b41.jpg" alt=""><span class="color_blue right_span hidden-xs hidden-sm"><i class="fas fa-chevron-right"></i></span>
               <p class="color_blue">Create compute servers in 55 seconds or less.</p>
               <div class="circles text-center color_lightblue">
                 <span><i class="fas fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i></span>
@@ -185,47 +185,124 @@
       </section>
       <!-- / FOURTH SECTION -->
       <!-- FIFTH SECTION -->
-      <section id="customer">
+      <section id="customer" class="padding_30">
         <div class="container">
-          <h2>TITOLO SEZIONE CUSTOMER</h2>
+          <h2 class="title_section color_white text-center">Service your customers around the world from 12 regions</h2>
           <div class="row">
-            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">LISTE PAESI</div>
-            <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">LISTE PAESI</div>
-          </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 customer_table">
+              <div class="row customer_line_table">
+                <div class="col-xs-2"> <p class="state">AMS2</p></div>
+                <div class="col-xs-7"> <p class="country">Amsterdam, Netherlands</p></div>
+                <div class="col-xs-3"> <a href="#" class="medium_weight color_lighblue">Test Speed ></a></div>
+              </div>
+              <div class="row customer_line_table">
+                <div class="col-xs-2"> <p class="state">AMS3</p></div>
+                <div class="col-xs-7"> <p class="country">Amsterdam, Netherlands</p></div>
+                <div class="col-xs-3"> <a href="#" class="medium_weight color_lighblue">Test Speed ></a></div>
+              </div>
+              <div class="row customer_line_table">
+                <div class="col-xs-2"> <p class="state">BLR1</p></div>
+                <div class="col-xs-7"> <p class="country">Bangalore, India</p></div>
+                <div class="col-xs-3"> <a href="#"  class="medium_weight color_lighblue">Test Speed ></a></div>
+              </div>
+              <div class="row customer_line_table">
+                <div class="col-xs-2"> <p class="state">FRA1</p></div>
+                <div class="col-xs-7"> <p class="country">Frankfurt, German</p></div>
+                <div class="col-xs-3"> <a href="#"  class="medium_weight color_lighblue">Test Speed ></a></div>
+              </div>
+              <div class="row customer_line_table">
+                <div class="col-xs-2"> <p class="state">LON1</p></div>
+                <div class="col-xs-7"> <p class="country">London, UK</p></div>
+                <div class="col-xs-3"> <a href="#"  class="medium_weight color_lighblue">Test Speed ></a></div>
+              </div>
+              <div class="row customer_line_table">
+                <div class="col-xs-2"> <p class="state">NYC1</p></div>
+                <div class="col-xs-7"> <p class="country">New York, USA</p></div>
+                <div class="col-xs-3"> <a href="#"  class="medium_weight color_lighblue">Test Speed ></a></div>
+              </div>
+            </div>
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-6 customer_table">
+              <div class="row customer_line_table">
+                <div class="col-xs-2"> <p class="state">AMS2</p></div>
+                <div class="col-xs-7"> <p class="country">Amsterdam, Netherlands</p></div>
+                <div class="col-xs-3"> <a href="#"  class="medium_weight color_lighblue">Test Speed ></a></div>
+              </div>
+              <div class="row customer_line_table">
+                <div class="col-xs-2"> <p class="state">AMS3</p></div>
+                <div class="col-xs-7"> <p class="country">Amsterdam, Netherlands</p></div>
+                <div class="col-xs-3"> <a href="#"  class="medium_weight color_lighblue">Test Speed ></a></div>
+              </div>
+              <div class="row customer_line_table">
+                <div class="col-xs-2"> <p class="state">BLR1</p></div>
+                <div class="col-xs-7"> <p class="country">Bangalore, India</p></div>
+                <div class="col-xs-3"> <a href="#"  class="medium_weight color_lighblue">Test Speed ></a></div>
+              </div>
+              <div class="row customer_line_table">
+                <div class="col-xs-2"> <p class="state">FRA1</p></div>
+                <div class="col-xs-7"> <p class="country">Frankfurt, German</p></div>
+                <div class="col-xs-3"> <a href="#"  class="medium_weight color_lighblue">Test Speed ></a></div>
+              </div>
+              <div class="row customer_line_table">
+                <div class="col-xs-2"> <p class="state">LON1</p></div>
+                <div class="col-xs-7"> <p class="country">London, UK</p></div>
+                <div class="col-xs-3"> <a href="#"  class="medium_weight color_lighblue">Test Speed ></a></div>
+              </div>
+              <div class="row customer_line_table">
+                <div class="col-xs-2"> <p class="state">NYC1</p></div>
+                <div class="col-xs-7"> <p class="country">New York, USA</p></div>
+                <div class="col-xs-3"> <a href="#"  class="medium_weight color_lighblue">Test Speed ></a></div>
+              </div>
+            </div>
         </div>
       </section>
       <!-- / FIFTH SECTION -->
       <!-- SIXTH SECTION -->
-      <section id="develop">
+      <section id="develop" class="padding_70">
         <div class="container">
-          <h2>TITOLO Develop</h2>
-          <div class="box">
-            <div class="inside_box">
-              <img src="" alt="RockerBox">
-              <h2>Citazione</h2>
-              <p>Nome citato</p>
-              <a href="#">Read story</a>
+          <h2 class="title_section color_blue text-center">Development teams love DigitalOcean</h2></h2>
+          <div class="rocker_box text-center padding_30">
+            <div class="inside_box wrap_60">
+              <span class="color_grey hidden-xs hidden-sm"><i class="fas fa-chevron-left"></i></span>
+              <img src="https://www.digitalocean.com/assets/media/homepage/teams/rockerbox-logo-51462da2.png" alt="RockerBox">
+              <h4 class="color_grey">“We have been able to make scaling the technical infrastructure of our business cost effective and efficient.”</h4>
+              <p class="medium_weight color_blue">Rick O’Toole</p>
+              <p class="color_blue">Co-founder and CTO</p>
+              <a href="#" class="color_lightblue">Read story ></a>
+              <span class="color_blue hidden-xs hidden-sm"><i class="fas fa-chevron-right"></i></span>
             </div>
-            <p>pallini</p>
+            <div class="circles text-center color_lightblue padding_top_30">
+              <span><i class="fas fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i></span>
+            </div>
           </div>
         </div>
       </section>
       <!-- / SIXTH SECTION -->
       <!-- 7th SECTION -->
-      <section id="get_started">
-        <div class="container">
-          <h2>GET started NOW</h2>
-          <a class="btn" href="#">Create your account</a>
+      <section id="get_started" class="padding_30">
+        <div class="container text-center">
+          <h2 class="title_section color_white">Get started now.</h2>
+          <a class="btn btn-default create_button medium_weight color_lightblue" href="#">Create your account</a>
         </div>
       </section>
       <!-- /7th SECTION -->
     </main>
     <!--/ MAIN -->
     <!-- FOOTER -->
-    <footer id="footer" class=" debug">
+    <footer id="footer" class="padding_70">
       <div class="container">
         <div class="row">
-          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">Ciao 1</div>
+          <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+            <img src="img/logo-small.svg" alt="logo_small">
+            <h6>© 2019 DigitalOcean, LLC. All rights reserved.</h6>
+            <h6>Proudly made by ANDREA</h6>
+            <ul>
+              <li><a href="#">TW</a></li>
+              <li><a href="#">FB</a></li>
+              <li><a href="#">IN</a></li>
+              <li><a href="#">YT</a></li>
+              <li><a href="#">LK</a></li>
+            </ul>
+          </div>
           <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">Ciao 2</div>
           <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">Ciao 3</div>
           <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">Ciao 4</div>
