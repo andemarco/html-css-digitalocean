@@ -357,6 +357,15 @@ ul {
 #footer h6 {
   line-height: 5px;
 }
+#footer ul li {
+  line-height: 22px;
+}
+#footer ul a:hover,
+#footer ul a:active,
+#footer ul a:focus {
+  color: white;
+  text-decoration: none;
+}
 .social_icons {
   font-size: 1.5em;
 }
@@ -365,7 +374,6 @@ ul {
 .social_icons:focus {
   color: white;
 }
-
 
 /* MEDIAQUERY */
 /* EXTRA SMALL */
@@ -379,4 +387,18 @@ ul {
   #logos li img {
     width: 80%;
   }
+}
+/* Small devices (tablets, 768px and up) */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media screen and (min-width:1200px) {
+  
 }
