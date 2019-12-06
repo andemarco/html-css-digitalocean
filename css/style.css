@@ -141,11 +141,20 @@ ul {
   height: 18px;
   left: 5px;
 }
-
-
-#logos {
-  height: 400px;
-  background-color: purple;
+/* LOGO SECTION */
+#logos h3 {
+  color: grey;
+  font-size: 1em;
+}
+#logos a:hover {
+  text-decoration: none;
+  color: #0069FF;
+}
+#logos li {
+  max-width: calc(90%/6);
+}
+#logos li img {
+  width: 100%;
 }
 #deploy{
   height: 400px;
@@ -193,5 +202,11 @@ ul {
 @media screen and (max-width: 768px) {
   .width_xs_100 {
     width: 100%;
+  }
+  #logos li {
+    max-width: calc(90%/2);
+  }
+  #logos li img {
+    width: 80%;
   }
 }
