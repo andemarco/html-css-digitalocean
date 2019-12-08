@@ -380,10 +380,30 @@ ul {
 @media screen and (max-width: 768px) {
   .width_xs_100 {
     width: 100%;
+    padding: 0;
     margin: 0 auto;
   }
   .margin_top_xs_20 {
-    margin-top: 120px;
+    margin-top: 20px;
+  }
+  .font_size_09_md {
+    font-size: 0.8em;
+  }
+  #jumbo {
+    font-size: 0.9em;
+  }
+
+  #develop .rocker_box .inside_box {
+    width: 90%;
+    margin: 0 auto;
+    background-color: white;
+  }
+  #develop .rocker_box .inside_box img{
+    width: 100%;
+    margin: 0 auto;
+  }
+  #customer {
+    font-size: 0.9em;
   }
 
   #logos li {
@@ -395,7 +415,9 @@ ul {
 }
 /* Small devices (tablets, 768px and up) */
 @media screen and (min-width: 768px) and (max-width: 992px) {
-
+  .font_size_09_md {
+    font-size: 0.8em;
+  }
 }
 
 /* Medium devices (desktops, 992px and up) */
